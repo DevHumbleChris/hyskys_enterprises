@@ -1,15 +1,13 @@
-/**
-* Template Name: Flexor - v4.7.0
-* Template URL: https://bootstrapmade.com/flexor-free-multipurpose-bootstrap-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@500&display=swap');
 
-/*--------------------------------------------------------------
-# General
---------------------------------------------------------------*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Dosis", sans-serif;
+}
+
 body {
-  font-family: "Open Sans", sans-serif;
   color: #313030;
 }
 
@@ -21,10 +19,6 @@ a {
 a:hover {
   color: #ff7e54;
   text-decoration: none;
-}
-
-h1, h2, h3, h4, h5, h6 {
-  font-family: "Raleway", sans-serif;
 }
 
 /*--------------------------------------------------------------
@@ -118,7 +112,6 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0;
   line-height: 0;
   font-weight: 700;
-  font-family: "Open Sans", sans-serif;
 }
 #header .logo h1 a, #header .logo h1 a:hover {
   color: #635551;
@@ -163,7 +156,7 @@ h1, h2, h3, h4, h5, h6 {
   justify-content: space-between;
   padding: 10px 0 10px 30px;
   font-size: 14px;
-  font-family: "Poppins", sans-serif;
+  font-family: "Dosis", sans-serif;
   color: #635551;
   white-space: nowrap;
   transition: 0.3s;
@@ -378,7 +371,6 @@ h1, h2, h3, h4, h5, h6 {
   box-shadow: 10px 2px 15px rgba(0, 0, 0, 0.1);
 }
 #hero .btn-get-started {
-  font-family: "Raleway", sans-serif;
   font-weight: 400;
   font-size: 16px;
   letter-spacing: 1px;
@@ -447,7 +439,6 @@ section {
   font-weight: 500;
   margin-bottom: 20px;
   padding-bottom: 0;
-  font-family: "Poppins", sans-serif;
   color: #635551;
 }
 .section-title p {
@@ -1155,7 +1146,6 @@ section {
   font-size: 36px;
   color: #ff5821;
   font-weight: 600;
-  font-family: "Poppins", sans-serif;
   margin-bottom: 20px;
 }
 .pricing h4 sup {
@@ -1203,7 +1193,6 @@ section {
   transition: none;
   font-size: 14px;
   font-weight: 400;
-  font-family: "Raleway", sans-serif;
   font-weight: 600;
   box-shadow: 0 3px 7px rgba(255, 88, 33, 0.4);
   transition: 0.3s;
@@ -1251,7 +1240,6 @@ section {
 .faq .faq-list a {
   display: block;
   position: relative;
-  font-family: "Poppins", sans-serif;
   font-size: 16px;
   line-height: 24px;
   font-weight: 500;
@@ -1850,7 +1838,6 @@ section {
   font-size: 14px;
   line-height: 24px;
   margin-bottom: 0;
-  font-family: "Raleway", sans-serif;
   color: #656262;
 }
 #footer .footer-top h4 {
